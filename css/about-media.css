@@ -1,0 +1,64 @@
+@media only screen and (max-width:600px){
+
+    header{
+        height: fit-content;
+        padding-bottom: 20px;
+    }
+    main{
+        padding: 0px;
+        max-width:90%;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    
+    main h1{
+        font-size: 30px;
+    }
+
+    main h2{
+        font-size: 25x;
+    }
+
+    main h3{
+        font-size: 20x;
+    }
+
+
+}
+
+
+/* tab device media query = 601 => 768px ) */
+
+@media only screen and (min-width:601px) and (max-width:768px){
+
+    header{
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+    main{
+        padding: 0px;
+        max-width:90%;
+    }
+
+    main h1{
+        font-size: 35px;
+    }
+
+    main h2{
+        font-size: 30x;
+    }
+
+    main h3{
+        font-size: 25x;
+    }
+
+}
+
+
+/* small laptop, squire monitor */
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+
+    
+}

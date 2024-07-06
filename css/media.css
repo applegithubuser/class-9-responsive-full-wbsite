@@ -1,0 +1,456 @@
+
+/*=============== Responsive start ============== */
+
+
+/* small phones, mediam phone and large phone = 0 => 600px ) */
+
+@media only screen and (max-width:600px){
+
+    h1{
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 25px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    #span-design{
+        height: 3px;
+        width: 120px;
+    }
+    
+    .container{
+        width: 96%;
+    }
+    
+    a{
+        font-size: 18px;
+    }
+
+    section{
+        padding: 50px, 0;
+    }
+    
+    
+    nav{
+        display: block;
+    
+    }
+
+    header{
+        height: 350px; 
+        background-size: cover;
+        align-items: center;
+    }
+    
+    nav h4{
+        font-size: 20px;
+        margin: 0 ;
+        text-align: center;
+        padding: 10px 0 0 0;
+    
+    }
+
+    nav h4 span{
+        font-size: 20px;
+    }
+    
+    nav ul{
+        padding: 20px 0 0 0;
+        justify-content: center;
+    }
+    
+    nav ul li{
+        margin: 0 5px 0 5px;
+        justify-content: center;
+    }
+    
+    nav ul li a{
+
+        font-weight: 400;
+        font-size: 15px;
+    
+    }
+    
+    nav ul li a:hover{
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /* banner saction start */
+
+    .banner{
+        padding: 60px 0 20px;
+        text-align: center;
+        color: white;
+        margin: 0px;
+
+    }
+
+    .banner h1 {
+        font-size: 30px;
+    }
+
+    .banner h3{
+        font-size: 20px;
+        font-style: italic;
+        margin: 0 0 10px 0;
+
+    }
+
+    .banner button{
+        padding: 10px 20px;
+        font-size: 16px;
+        letter-spacing: 1px;
+
+
+    }
+
+    /* upcomming event section */
+
+    .event-main h2{ 
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .event{
+        display: block;
+        width: 100%;
+        margin: 30px auto 0;
+    }
+    .event-box{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .event-box img{
+        height: 300px;
+
+    }
+    .event-box h4{
+        font-size: 20px;
+
+    }
+
+    .event-image-mobile{
+        margin-top: 50px;
+    }
+
+    .event a{
+        font-size: 16px;
+    }
+
+
+    /* explore section start */
+
+    .explore-main{
+        display: block;
+    }
+    .explore{
+        width: 100%;
+        padding: 6px;
+    }
+    .explore h1{
+        margin-bottom: 0;
+    }
+    .explore p{
+        margin: 30px 0;
+    }
+    .explore a{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    /* tour section start*/
+
+    .tour-main{
+        display: block;
+        margin: auto;
+        width: auto;
+
+    }
+    .tour{
+        padding: 5px;
+        width: 96%;
+    }
+
+    .tour p{
+        margin: 20px 0;
+    }
+    .tour a{
+        font-size: 16px;
+
+    }
+    .tour img {
+        margin: auto;
+ 
+    }
+
+    .small{
+        height: 300px;
+        margin: 0 0 0px 0;
+
+    }
+
+    .large{
+        height: 300px;
+        margin: 0 0 0px 0;
+
+    }
+
+/* footer section */
+
+    footer{
+        padding: 30px 10px;
+    }
+
+    .fab{
+        font-size: 25px;
+        margin: 5px;
+
+    }
+
+
+}
+
+
+/* tab device media query = 601 => 768px ) */
+
+@media only screen and (min-width:601px) and (max-width:768px){
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        font-size: 25px;
+    }
+
+    #span-design{
+        height: 4px;
+        width: 140px;
+    }
+    
+    .container{
+        width: 100%;
+    }
+    
+   
+    section{
+        padding: 60px, 0;
+    }
+
+    
+    nav{
+        display: block;
+    
+    }
+
+   
+    nav h4{
+        font-size: 25px;
+        margin: 0 ;
+        text-align: center;
+        padding: 10px 0 0 0;
+    
+    }
+
+    nav h4 span{
+        font-size: 20px;
+    }
+    
+    nav ul{
+        padding: 20px 0 0 0;
+        justify-content: center;
+    }
+    
+    nav ul li{
+        margin: 0 5px 0 5px;
+        justify-content: center;
+    }
+    
+    nav ul li a{
+
+        font-weight: 400;
+        font-size: 15px;
+    
+    }
+    
+    nav ul li a:hover{
+        font-weight: 400;
+        font-size: 15px;
+    }
+
+    /* banner saction start */
+
+
+    
+    .banner{
+        padding: 60px 0 20px;
+        text-align: center;
+        color: white;
+        margin: 0px;
+
+    }
+
+    .banner h1 {
+        font-size: 40px;
+    }
+
+    .banner h3{
+        font-size: 25px;
+        font-style: italic;
+        margin: 0 0 10px 0;
+
+    }
+
+    .banner button{
+        padding: 15px 30px;
+        font-size: 16px;
+        letter-spacing: 1px;
+
+
+    }
+
+    /* upcomming event section */
+
+  
+    .event-main h2{ 
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .event{
+        width: 90%;
+    }
+    .event-box{
+        width: 50%;
+        margin: 15px;
+    }
+    .event-box img{
+        height: 320px;
+
+    }
+    .event-box h4{
+        font-size: 20px;
+
+    }
+
+    .event a{
+        font-size: 16px;
+    }
+
+
+    /* explore section start */
+
+    .explore-main{
+        display: block;
+    }
+    .explore{
+        width: 80%;
+        margin: auto;
+    }
+
+    .explore p{
+        margin: 40px 0;
+    }
+    .explore a{
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+
+
+    /* tour section start*/
+
+    .tour-main{
+        width: 90%;
+    
+    }
+
+    .tour{
+        padding: 5px;
+        width: 100%;
+    }
+
+    .tour p{
+        margin: 20px 0;
+    }
+    .tour a{
+        font-size: 16px;
+
+    }
+
+
+    .small{
+        height: 300px;
+        margin: 0 0 0px 0;
+
+    }
+
+    .large{
+        height: 320px;
+        margin: 0 0 0px 0;
+
+    }
+
+/* footer section */
+
+    footer{
+        padding: 30px 10px;
+    }
+
+    .fab{
+        font-size: 30px;
+        margin: 10px;
+
+    }
+
+
+}
+
+/* small laptop, squire monitor */
+
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    
+    h1{
+        font-size: 50px
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 25px;
+
+    }
+
+
+
+}
+
+
+/* small laptop, squire monitor */
+
+@media only screen and (min-width:1025px) and (max-width:1440px) {
+    
+    h1{
+        font-size: 60px
+    }
+    h2{
+        font-size: 40px;
+    }
+    h3{
+        font-size: 30px;
+        
+    }
+
+
+
+}
